@@ -930,6 +930,26 @@ table tfoot td {
   font-size: 11px;
 }
 
+.navbar-li {
+  list-style: none;
+  padding: 0;
+}
+
+.navbar-li li {
+  padding: 10px;
+  border-bottom: 1px solid;
+}
+
+.navbar-li li:hover {
+  background: gray;
+  color: white;
+  cursor: pointer;
+}
+
+.navbar-li li:first-child {
+  border-top: 1px solid;
+}
+
 /* - - - - - - - - - - Home Page Styles - - - - - - - - - - */
 .sidebar {
   display: -webkit-box;
@@ -991,7 +1011,6 @@ table tfoot td {
   font-family: 'PT Serif', serif;
   margin: 0 0 10px;
   position: relative;
-  padding-bottom: 15px;
   font-size: 16px;
   text-transform: uppercase;
   color: #333030;
@@ -1012,6 +1031,7 @@ table tfoot td {
   -webkit-border-radius: 100%;
           border-radius: 100%;
   background-color: #515151;
+  display: none;
 }
 
 .about p {
@@ -1092,6 +1112,10 @@ table tfoot td {
   -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .contact ul li {
@@ -1106,7 +1130,7 @@ table tfoot td {
   color: darkblue;
   display: block;
   padding: 5px;
-  font-size: 11px;
+  font-size: 13px;
   -webkit-transition: all 350ms cubic-bezier(0.13, 0.43, 0.54, 1.82);
   -o-transition: all 350ms cubic-bezier(0.13, 0.43, 0.54, 1.82);
   transition: all 350ms cubic-bezier(0.13, 0.43, 0.54, 1.82);
@@ -1478,7 +1502,7 @@ a.newer-posts:hover {
         -ms-flex-align: stretch;
             align-items: stretch;
   }
-  .contact-title, .copyright {
+  .contact-title, .copyright, .navbar-li {
     display: none;
   }
 }

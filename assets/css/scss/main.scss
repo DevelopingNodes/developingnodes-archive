@@ -139,7 +139,7 @@ table tfoot td {
 .blog-banner {
   width: 100%;
   text-align: center;
-  background: cadetblue;
+  background: lightseagreen;
   color: white;
   margin: 10px 0px;
   border-radius: 10px;
@@ -152,6 +152,22 @@ table tfoot td {
   }
 }
 
+.navbar-li {
+  list-style: none;
+  padding: 0;
+  li{
+    padding: 10px;
+    border-bottom: 1px solid;
+  }
+  li:hover{
+    background: gray;
+    color: white;
+    cursor: pointer;
+  }
+  li:first-child{
+    border-top: 1px solid;
+  }
+}
 
 /* - - - - - - - - - - Home Page Styles - - - - - - - - - - */
 @import 'parts/home-page';
