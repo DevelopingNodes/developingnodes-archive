@@ -1328,6 +1328,7 @@ a.newer-posts:hover {
 .tags {
   margin: 0;
   padding: 5px 0px;
+  font-size: 10px;
 }
 
 .tags li {
