@@ -940,10 +940,24 @@ table tfoot td {
   border-bottom: 1px solid;
 }
 
+.navbar-li li a {
+  text-decoration: none;
+  color: black;
+  padding: 13px 30px;
+}
+
+.navbar-li li a:hover {
+  color: white;
+}
+
 .navbar-li li:hover {
   background: gray;
   color: white;
   cursor: pointer;
+}
+
+.navbar-li li:hover a {
+  color: white;
 }
 
 .navbar-li li:first-child {
