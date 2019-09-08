@@ -136,6 +136,22 @@ table tfoot td {
   clear: both;
 }
 
+.blog-banner {
+  width: 100%;
+  text-align: center;
+  background: cadetblue;
+  color: white;
+  margin: 10px 0px;
+  border-radius: 10px;
+  h2 {
+    margin-bottom: 0;
+  }
+  .desc {
+    margin-bottom: 10px;
+    font-size: 11px;
+  }
+}
+
 /* - - - - - - - - - - Home Page Styles - - - - - - - - - - */
 @import 'parts/home-page';
 

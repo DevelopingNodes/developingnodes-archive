@@ -911,6 +911,25 @@ table tfoot td {
   clear: both;
 }
 
+.blog-banner {
+  width: 100%;
+  text-align: center;
+  background: cadetblue;
+  color: white;
+  margin: 10px 0px;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+}
+
+.blog-banner h2 {
+  margin-bottom: 0;
+}
+
+.blog-banner .desc {
+  margin-bottom: 10px;
+  font-size: 11px;
+}
+
 /* - - - - - - - - - - Home Page Styles - - - - - - - - - - */
 .sidebar {
   display: -webkit-box;
