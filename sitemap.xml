@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>/Setting-up-kubernetes-cluster-on-raspberry-pi/</loc>
+<lastmod>2019-03-30T16:02:20+05:30</lastmod>
+</url>
+<url>
+<loc>/What-it-means-to-be-Cloud-Native-approach-the-CNCF-way/</loc>
+<lastmod>2019-04-08T16:02:20+05:30</lastmod>
+</url>
+<url>
+<loc>/Getting-Started-with-Terraform-and-Infrastructure-as-Code/</loc>
+<lastmod>2019-08-04T16:02:20+05:30</lastmod>
+</url>
+<url>
+<loc>/How-to-manage-Terraform-state-in-Azure-Blob-Storage/</loc>
+<lastmod>2019-08-25T16:02:20+05:30</lastmod>
+</url>
+<url>
+<loc>/</loc>
+</url>
+<url>
+<loc>/tags/</loc>
+</url>
+</urlset>
