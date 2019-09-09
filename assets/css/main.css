@@ -917,8 +917,6 @@ table tfoot td {
   background: lightseagreen;
   color: white;
   margin: 10px 0px;
-  -webkit-border-radius: 10px;
-          border-radius: 10px;
 }
 
 .blog-banner h2 {

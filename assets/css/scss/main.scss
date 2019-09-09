@@ -142,7 +142,6 @@ table tfoot td {
   background: lightseagreen;
   color: white;
   margin: 10px 0px;
-  border-radius: 10px;
   h2 {
     margin-bottom: 0;
   }
@@ -158,11 +157,22 @@ table tfoot td {
   li{
     padding: 10px;
     border-bottom: 1px solid;
+    a {
+      text-decoration: none;
+      color: black;
+      padding: 13px 30px;
+    }
+    a:hover {
+      color: white;
+    }
   }
   li:hover{
     background: gray;
     color: white;
     cursor: pointer;
+    a{
+      color: white;
+    }
   }
   li:first-child{
     border-top: 1px solid;
