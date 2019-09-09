@@ -914,9 +914,8 @@ table tfoot td {
 .blog-banner {
   width: 100%;
   text-align: center;
-  background: lightseagreen;
-  color: white;
-  margin: 10px 0px;
+  border: 1px solid;
+  margin: 10px 0px 20px;
 }
 
 .blog-banner h2 {
@@ -1191,8 +1190,6 @@ footer .copyright a {
       -ms-flex-align: stretch;
           align-items: stretch;
   min-height: 11rem;
-  -webkit-border-radius: 10px;
-          border-radius: 10px;
   overflow: hidden;
   -webkit-transition: all .3s ease;
   -o-transition: all .3s ease;
